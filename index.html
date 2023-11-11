@@ -17,11 +17,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
 <!-- google font for Anton similar to Impact -->
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+<!-- google font Cinzel+Decorative -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
      <!-- css files -->
      <link rel="stylesheet" href="resetstyle.css">
     <link  href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="./Info_Header/infoHeader.css">
     <link rel="stylesheet" href="./main/main.css">
+    <link rel="stylesheet" href="./main/main.css">
+    <link rel="stylesheet" href="./about/about.css">
     <!-- java files -->
     <script src="./Info_Header/infoHeader.js" defer></script>
     <script src="./main/main.js" defer></script>
@@ -30,20 +34,20 @@
     <title>Timberline Home</title>
   </head>
  
-  <header class="header-main">
+  <header class="header-main" id="scroll-1">
     <div class="header-mainlogo">
       <img src="./assets/newtimlogo.PNG" class="img-fluid" id="header_logo"alt="Timberline logo">
       <nav class="header-main-nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Team</a></li>
+          <li><a href="#scroll-1">Home</a></li>
+          <li><a href="#scroll-2">Team</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Schedule</a></li>
         </ul>
           
       </nav>
 
-    <!-- <h2 class="slogan">Inspecting Homes, Protecting Dreams</h2> -->
+    
     <div class="nav-modal">
       <div class="blob"></div>
       <nav class="nav-two">
@@ -94,21 +98,49 @@
   </header>
   <main>
     <div class="main-intro">
-      <h1>Timbeline<br> Home <br>Inspections</h1>
+      <h1>Timberline<br> Home <br>Inspections</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Sit debitis dolorum inventore? Voluptate natus corporis ea ad quia earum sapiente?<br> Minima necessitatibus, quia officiis qui nemo ratione dolorum temporibus expedita.
+        -Unlock Peace of Mind in Your Dream Home! <br>Timberline Home Inspections:<br> Where Every Corner Counts. Your safety, our priority.-
       </p>
       <a href="#">Schedule Now</a>
+    </div>
       <div class="main-quotes">
         <p>
           "the more that you read, the more<br>things you will know.The more that<br>you learn, the more places you'll go."<br><br> -Dr. Seuss
         </p>
         <p>
-          "Just cause I am 7years old <br> doesn't mean I want a woman who looks 70!"<br><br> -Robert Reid
+          "Just cause I am 70 years old <br> doesn't mean I want a woman who looks 70!"<br><br> -Robert Reid
         </p>
     </div>
+    </main>
+<section class="about-me">
+  <div class="main-about">
+    <img class="about-img"src="./assets/about1.png " alt="about me image">
+    <div class="about-text" id="scroll-2">
+      <h1>About Me</h1>
+      <h5>Meet Your<span> Home Inspector </span></h5>
+      <p>
+                        The epitome of dedication and a true family man, is an
+                        unwavering example of hard work. As a home inspector, he approaches
+                        each inspection with unparalleled diligence, ensuring that every
+                        detail is meticulously examined. Beyond his professional commitment,
+                        Dylan's devotion to his family is nothing short of inspiring. He
+                        effortlessly balances the demands of his career with being a loving
+                        husband and father, always prioritizing quality time with his loved
+                        ones. His dedication, both in his profession and personal life, stands
+                        as a testament to the remarkable strength and character of a man who
+                        embodies the values of hard work, perseverance, and the importance of
+                        family.
+      </p>
+      <div class="about-btn">
+        <a href="#">Schedule Now</a>
+      </div>
+    </div>
+  </div>
+
+</section>
     
-  </main>
+  
   <body>
  
     

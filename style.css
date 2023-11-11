@@ -1,8 +1,12 @@
 
 :root {
     --brown-background: #d2a56d;
-    --site-color-01: #c13584;
+    --site-color-01: #361c0d;
     --site-color-01-hover: #9e2f6e;
+    --site-color-02: #ffcf40;
+    --site-color-03: #0b253e;
+    --site-color-04: #b6977d;
+    --background-image-01: url(../assets/wood.png);
 }
 body{
     background-color: #1e1e1e;
