@@ -1,4 +1,3 @@
-
   .about-me {
     padding: 48px 0;
     background-color: var(--site-color-04);
@@ -91,7 +90,7 @@
     cursor: pointer;
   }
   
-  /* Add the following media query to ensure responsiveness */
+
   @media (max-width: 768px) {
     .about-img1,
     .about-img2 {
