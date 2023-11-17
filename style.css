@@ -6,7 +6,11 @@
     --site-color-02: #ffcf40;
     --site-color-03: #0b253e;
     --site-color-04: #b6977d;
+    --site-color-05: #196f3d;
     --background-image-01: url(../assets/wood.png);
+    --background-image-02: url(../assets/newtimlogo.png);
+    --background-image-03: url(../assets/wood2.png);
+    --background-image-04: url(../assets/azcabin2.png);
 }
 body{
     background-color: #1e1e1e;
