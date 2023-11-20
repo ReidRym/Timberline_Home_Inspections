@@ -64,3 +64,35 @@ main .main-quotes {
   left: 30vh;
   padding-bottom: 8vh;
 }
+
+
+@media (max-width: 767px) {
+  main .main-intro {
+    position: static;
+    right: auto;
+    padding-bottom: 10vh; /* Adjusted padding for smaller screens */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  main .main-intro h1 {
+    font-size: 60px; 
+    line-height: 1.2; 
+  }
+
+  main p {
+    font-size: 26px; 
+    line-height: 1.4; 
+  }
+
+  main a {
+    margin-top: 55px; 
+    font-size: 26px; 
+    padding: 20px 25px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main .main-quotes {
+    display: none; /* Hide main-quotes on mobile screens */
+  }
+}

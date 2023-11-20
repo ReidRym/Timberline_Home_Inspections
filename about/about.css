@@ -99,4 +99,13 @@
       margin-left: 0;
     }
   }
-  
+  @media (max-width: 768px) {
+    .about-text h1 {
+      letter-spacing: 2px; /* Adjust as needed to prevent the title from running together on smaller screens */
+    }
+  }
+  @media (max-width: 768px) {
+    .about-text h1 {
+      line-height: 1.2; /* Adjust as needed to prevent the title from running together on smaller screens */
+    }
+  }

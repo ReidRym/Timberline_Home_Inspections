@@ -1,7 +1,7 @@
 
 .faq {
     padding: 50px 0;
-    background-image: var(--background-image-05);
+    background-image: url(../assets/bg7.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@
 }
 
 .accordion-button {
-    background-color: var(--site-color-04);
+    background-color: var(--site-color-03);
     color: #fff;
     border-radius: 5px;
 }

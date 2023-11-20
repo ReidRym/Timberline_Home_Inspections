@@ -86,3 +86,10 @@ background-color: var(--site-color-03);
   margin-top: 10px;
   padding-left: 23px;
 }
+
+@media (max-width: 767px) {
+  .service-card {
+    width: fit-content;
+    height:  100%; /* Adjust as needed to make the boxes slightly longer on smaller screens */
+  }
+}
