@@ -80,6 +80,7 @@ background-color: var(--site-color-03);
 
 .service-card p {
   color: var(--site-color-04); 
+  -webkit-text-stroke: 1px #000;
   letter-spacing: 2px;
   line-height: 25px;
   font-size: 1em;

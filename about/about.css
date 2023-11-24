@@ -4,6 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+   
   }
   
   .about-img1 {
@@ -87,22 +88,25 @@
   
   .about-btn a {
     width: 50px;
-    background: var(--site-color-02);
-    color: white;
-    font-size: 20px;
+    background: var(--background-image-01);
+    color: #fff;
+    font-size: 30px;
     letter-spacing: 4px;
-    text-decoration: none;
-    border: 2px solid transparent;
+    text-decoration: underline;
+    -webkit-text-stroke: 1px var(--site-color-01);
+    border: 3px solid var(--site-color-02);
     font-weight: bold;
     padding: 13px 30px;
-    
+    padding-top: -15px;
+    filter: drop-shadow(3px 2px 1px var(--site-color-03)) drop-shadow(5px 5px 0px #000);
     transition: .4s;
   }
   
   .about-btn a:hover {
     background: transparent;
-    color: var(--site-color-01);
-    border: 2px solid var(--site-color-01);
+    color: var(--site-color-02);
+    border: 2px solid #fff;
+    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
     cursor: pointer;
   }
   

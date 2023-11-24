@@ -35,13 +35,26 @@ main p {
 }
 main a {
   margin-top: 30px;
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: bold;
   display: block;
-  background-color: var(--site-color-02);
-  color: var(--site-color-01);
-  border: var(--site-color-01) solid 2px;
+  background: var(--background-image-01);
+  color: #fff;
+  letter-spacing: 4px;
+  text-decoration: underline;
+  -webkit-text-stroke: 1px var(--site-color-01);
+  border: 3px solid var(--site-color-02);
+  filter: drop-shadow(3px 2px 1px var(--site-color-03)) drop-shadow(5px 5px 0px #000);
+  transition: .4s;
   padding: 30px 40px;
   width: fit-content;
+}
+main a:hover {
+  background: transparent;
+  color: var(--site-color-02);
+  border: 2px solid #fff;
+  filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+  cursor: pointer;
 }
 main .main-quotes p {
   border-left: 6px solid var(--site-color-01);
