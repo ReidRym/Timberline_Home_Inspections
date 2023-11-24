@@ -18,16 +18,14 @@ main .main-intro h1 {
   font-size: 100px;
   font-weight: 900;
   line-height: 116px;
-  letter-spacing: 10px;
-
+  letter-spacing: 12px;
   background-image: var(--background-image-01);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-filter: drop-shadow(5px 4px 0px #361c0d)
-    drop-shadow(9px 8px 0px rgba(0, 0, 0, 0.15));
-  filter: drop-shadow(5px 4px 0px #361c0d) (9px 8px 0px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(5px 5px 1px #fff) drop-shadow(10px 7px 0px #000);
+ 
 }
 main p {
   font-size: 28px;
