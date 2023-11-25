@@ -46,6 +46,7 @@
     padding: 20px; 
     background-color: rgba(0, 0, 0, 0.7);
     filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #fff);
+    text-align: justify;
   }
   
   /* Responsive Styles for Small Screens (Mobile) */
