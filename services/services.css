@@ -70,12 +70,13 @@ background-color: var(--site-color-03);
 }
 
 .service-card h1 {
-  color: #fff; /* Change text color */
-  text-decoration: underline;
-  font-size: 1.5em;
-  margin-top: 20px;
-  letter-spacing: 4px;
-  padding-left: 23px;
+  font-family: 'Cinzel Decorative', sans-serif;
+  padding: 10px;
+    font-size: 1.4em;
+    -webkit-text-stroke-color: #000 2px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
 }
 
 .service-card p {
@@ -93,4 +94,12 @@ background-color: var(--site-color-03);
     width: fit-content;
     height:  100%; /* Adjust as needed to make the boxes slightly longer on smaller screens */
   }
+}
+.serv-title{
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-size: 3em;
+  -webkit-text-stroke-color: #000 2px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
 }
