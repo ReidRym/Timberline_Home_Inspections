@@ -1,4 +1,4 @@
-![web4](https://github.com/ReidRym/Timberline_Home_Inspections/assets/123789106/6428651b-3196-4ff2-abe7-c93d2564b953)![web1](https://github.com/ReidRym/Timberline_Home_Inspections/assets/123789106/985feeef-faf2-456d-b91d-6baf6fefeaad)# Timberline Property Inspections
+## Timberline Property Inspections
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
