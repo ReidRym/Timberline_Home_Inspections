@@ -2,8 +2,6 @@
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url("#") no-repeat center bottom / cover;
-  color: whitesmoke;
 }
 .schedule-container {
   width: 90%;
@@ -13,11 +11,10 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  /*   text-align: center; */
+  
 }
 #schedule .info-schedule h1 {
   font-size: 3rem;
-  /* text-transform: uppercase; */
   margin-bottom: 1rem;
 }
 #schedule .info-schedule h2 {
