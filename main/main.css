@@ -13,24 +13,20 @@ main {
   z-index: 100;
 }
 
-main .main-intro h1 {
+.main-intro h1 {
   font-family: "Cinzel Decorative", serif;
   font-size: 100px;
   font-weight: 900;
   line-height: 116px;
   letter-spacing: 12px;
-  background-image: var(--background-image-01);
-  color: transparent;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -ms-background-clip: text;
+  background-image: var(--background-image-01); /* Make sure this is correctly defined */
   background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  -ms-text-fill-color:transparent;
   filter: drop-shadow(5px 5px 1px #fff) drop-shadow(10px 7px 0px #000);
- 
 }
+
 main p {
   font-size: 28px;
   line-height: 35px;
