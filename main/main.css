@@ -22,8 +22,12 @@ main .main-intro h1 {
   background-image: var(--background-image-01);
   color: transparent;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color:transparent;
   filter: drop-shadow(5px 5px 1px #fff) drop-shadow(10px 7px 0px #000);
  
 }
