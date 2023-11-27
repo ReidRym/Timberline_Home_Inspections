@@ -141,44 +141,83 @@ nav ul li ul li a{
     transform: rotate(-45deg);
 }
 
-@media only screen and (max-width: 768px) {
+/* Your existing CSS styles... */
 
-    .nav-mobile{
+@media only screen and (max-width: 850px) {
+
+    .nav-mobile {
         display: block;
     }
 
-    nav{
+    nav {
         width: 100vw;
         padding: 70px 0 15px;
     }
 
-    nav ul{
+    nav ul {
         display: none;
+        background: #262626;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        text-align: center;
     }
 
     nav ul li {
         float: none;
+        display: block;
     }
 
-    nav ul li a{
+    nav ul li a {
         padding: 15px;
         line-height: 20px;
-        padding-left: 8vw;
-        padding-right: 8vw;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-
-    nav ul li ul li a{
-        padding-left: 30%;
+    nav ul li ul li a {
+        padding-left: 0;
     }
 
-    .nav-dropdown{
+    .nav-dropdown {
         position: static;
     }
-}
 
-@media screen and (min-width: 799px){
-    .nav-list{
-        display: block !important;
+    #nav-toggle {
+        display: block;
+    }
+
+    #nav-toggle span,
+    #nav-toggle span::before,
+    #nav-toggle span::after {
+        background: #fff;
+    }
+
+    #nav-toggle.active span::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+    #nav-toggle.active span::after {
+        transform: rotate(-45deg);
+        bottom: 0;
+    }
+
+    #nav-toggle.active span {
+        background-color: transparent;
+    }
+
+    nav ul.show {
+        display: block;
+    }
+}
+/* New media query for screens larger than 850px */
+@media only screen and (min-width: 851px) {
+    .nav-list {
+        display: block !important; /* Show the original navbar links on larger screens */
+    }
+
+    .nav-mobile {
+        display: none; /* Hide the hamburger menu on larger screens */
     }
 }

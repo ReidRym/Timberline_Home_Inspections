@@ -206,3 +206,57 @@ ul {
     letter-spacing: 2px;
     filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
 }
+@media (orientation: landscape) {
+  .footer-logo {
+    display: none;
+  }
+}
+#contact-links i {
+  font-size: 40px;
+  color: #fff;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+#contact-links i:hover {
+  color: #24262b;
+}
+#the-copy {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}
+.foot-sched {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  background: url(../assets/wood4.png);
+  color: var(--site-color-01);
+  letter-spacing: 4px;
+  text-decoration: underline;
+  text-shadow: -1px -1px 0 var(--site-color-04), 1px -1px 0 var(--site-color-04), -1px 1px 0 #000, 1px 1px 0 #000;
+  border: 3px solid var(--site-color-02);
+  filter: drop-shadow(3px 2px 1px var(--site-color-03))
+    drop-shadow(5px 5px 0px #000);
+  transition: 0.4s;
+  padding: 10px 10px;
+  width: fit-content;
+}
+.foot-sched:hover {
+  background: transparent;
+  color: var(--site-color-02);
+  border: 2px solid #fff;
+  filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+  cursor: pointer;
+}
+.tit-foot{
+  font-family: 'Cinzel Decorative', sans-serif;
+    font-size: 3.2em;
+    -webkit-text-stroke-color: #000 2px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+}

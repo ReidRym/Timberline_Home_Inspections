@@ -59,7 +59,7 @@
   }
 
  
-  .bio-header, .bio-quote {
+   .bio-header,.bio-quote {
       margin: 0 auto;
       font-size: 2em; 
   }
@@ -67,7 +67,7 @@
   
   .bio-paragraph {
       margin: 0 auto;
-      text-align: left;
+      text-align: justify;
       max-width: 80vw; 
   }
 
@@ -116,3 +116,73 @@
   font-size: 0.8em !important; 
   padding: 1vw 0; 
 }
+  @media (orientation: landscape) {
+    .bio-header {
+      margin: auto;
+      font-size: 2em;
+    }
+    .bio-section {
+      text-align: center;
+      align-items: center;
+      padding: 5vw 8vw;
+  }
+
+ 
+   .bio-quote {
+      margin: 0 auto;
+      font-size: 2em; 
+  }
+
+  
+  .bio-paragraph {
+      margin: 0 auto;
+      text-align: justify;
+      max-width: 80vw; 
+  }
+
+  
+  .schedule-button {
+      margin-top: 5vw; 
+      padding: 2vw 3vw; 
+  }
+}
+
+.bio-sub {
+  color: var(--site-color-02);
+  
+}
+
+.bio-hed {
+  color: var(--site-color-02);
+}
+
+.schedule-button {
+  margin-top: 3vw; 
+  font-size: 2vw; 
+  font-weight: bold;
+  display: block;
+  background: url(../assets/wood2.png);
+  color: #fff;
+  letter-spacing: 0.4em; 
+  text-decoration: underline;
+  -webkit-text-stroke: 0.1vw var(--site-color-01); 
+  border: 0.2vw solid var(--site-color-02); 
+  filter: drop-shadow(0.3vw 0.2vw 0.1vw var(--site-color-03)) drop-shadow(0.5vw 0.5vw 0vw #000); 
+  transition: 0.4s;
+  padding: 2vw 3vw; 
+  width: fit-content;
+}
+
+.schedule-button:hover {
+  background: transparent;
+  color: var(--site-color-02);
+  border: 0.1vw solid #fff; /* Use vw for border */
+  filter: drop-shadow(0.3vw 0.2vw 0.1vw grey) drop-shadow(0.5vw 0.5vw 0vw #000); 
+  cursor: pointer;
+}
+
+.bio-quote h5 {
+  font-size: 0.8em !important; 
+  padding: 1vw 0; 
+}
+  
