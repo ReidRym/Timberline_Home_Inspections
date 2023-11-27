@@ -1,61 +1,63 @@
 .services-title {
   text-align: center;
-  padding: 50px 10px;
-  background-image: var(--background-image-03); 
+  padding: 5vw 2vw; /* Use vw for responsive padding */
+  background-image: url(../assets/servwood.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  letter-spacing: 2px;
-  position: relative;
 }
 
 .title-container {
   display: inline-block;
-  border: 5px solid var(--site-color-01);
-  padding: 20px;
-  border-radius: 10px;
+  border: 0.1em solid var(--site-color-04);
+  padding: 2vw;
+  border-radius: 1em;
   background-color: var(--site-color-03);
   text-align: center;
-  box-shadow: 0 0 10px rgba(1, 1, 1, 0.2);
+  filter: drop-shadow(4px 2px 1px #fff) drop-shadow(7px 5px 5px #000);
 }
 
 .services-title h1 {
+  font-family: 'Cinzel Decorative', sans-serif;
+  color: var(--site-color-04);
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  filter: drop-shadow(2px 1px 1px #fff) drop-shadow(3px 3px 0px #000);
 }
 
 .services-title p {
-  font-size: 1.2em;
+  font-size: 1em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  filter: drop-shadow(2px 1px 1px grey) drop-shadow(3px 3px 0px #000);
 }
 
 .services-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(3,1fr); /* Responsive grid */
+  gap: 2vw;
   justify-content: center;
-  align-items: center;
-  margin: 20px;
-  background-image: var(--background-image-01); 
-  padding: 20px;
+  align-items: stretch;
+  margin: 2vw;
+  background-image: var(--background-image-01);
+  padding: 2vw;
 }
 
 .service-card {
   position: relative;
-  height: 300px;
+  height: 100%; /* Use vw for responsive height */
+  max-height: 30vw;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
   background-color: #000; /* Change this to your desired background color */
 }
 
 .service-card:nth-child(even) {
-background-color: var(--site-color-03);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: var(--site-color-03);
 }
 
 .service-card:hover {
@@ -64,42 +66,52 @@ background-color: var(--site-color-03);
 
 .service-card i {
   font-size: 3em;
-  color: #ff5733; /* Change icon color */
-  margin-top: 30px;
-  margin-left: 30px;
+  color: #ff5733;
+  margin-top: 2vw;
+  margin-left: 2vw;
 }
 
 .service-card h1 {
   font-family: 'Cinzel Decorative', sans-serif;
-  padding: 10px;
-    font-size: 1.4em;
-    -webkit-text-stroke-color: #000 2px;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+  padding: 1em;
+  font-size: 1.4em;
+  -webkit-text-stroke-color: #000 2px;
+  margin-bottom: 1em;
+  letter-spacing: 2px;
+  filter: drop-shadow(0.2em 0.1em 0.1em grey) drop-shadow(0.5em 0.5em 0 #000);
 }
 
 .service-card p {
-  color: var(--site-color-04); 
-  -webkit-text-stroke: 1px #000;
+  color: var(--site-color-04);
+  -webkit-text-stroke: 0.1em #000;
   letter-spacing: 2px;
-  line-height: 25px;
+  line-height: 1.3em;
   font-size: 1em;
-  margin-top: 10px;
-  padding-left: 23px;
+  margin-top: 1em;
+  padding:0 2vw;
 }
 
 @media (max-width: 767px) {
   .service-card {
-    width: fit-content;
-    height:  100%; /* Adjust as needed to make the boxes slightly longer on smaller screens */
+    width: 100%;
+    height: auto;
+    max-height: none;
   }
-}
-.serv-title{
-  font-family: 'Cinzel Decorative', sans-serif;
-  font-size: 3em;
-  -webkit-text-stroke-color: #000 2px;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
-  filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+
+  .service-card p {
+    line-height: 1.5; /* Adjust line height for better readability on smaller screens */
+    font-size: 1em; /* Adjust font size for better readability on smaller screens */
+    padding: 0 2vw; /* Add padding for better text spacing on smaller screens */
+  }
+
+  .service-card i {
+    margin-top: 1em; /* Adjust icon margin for better spacing on smaller screens */
+    margin-left: 0; /* Center the icon on smaller screens */
+  }
+
+  .service-card h1 {
+    font-size: 0.7em; /* Adjust heading font size for better readability on smaller screens */
+    margin-bottom: 0.5em; /* Adjust heading margin for better spacing on smaller screens */
+    padding: 0 2vw;
+  }
 }

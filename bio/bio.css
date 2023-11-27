@@ -1,135 +1,113 @@
-
 .bio-section {
-    position: relative;
-    background-image: url('../assets/Dill56.png');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding: 50px;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height:1100px;
-    text-shadow: 2px 2px 1px #000;
-    letter-spacing: 2px;
+  position: relative;
+  background-image: url('../assets/bio56.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 5vw; /* Use vw for padding */
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh; /* Use vh for minimum height */
+  height:100%;
+  text-shadow: 0.5vw 0.5vw 0.1vw #000; /* Use vw for text shadow */
+  letter-spacing: 0.1em; /* Use em for letter-spacing */
+}
+
+/* Header Styles */
+.bio-header {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-size: 3em;
+  -webkit-text-stroke-color: #000;
+  margin-bottom: 1.5vw; /* Use vw for margin */
+  letter-spacing: 0.1em; /* Use em for letter-spacing */
+  filter: drop-shadow(0.3vw 0.2vw 0.1vw grey) drop-shadow(0.5vw 0.5vw 0vw #000); /* Use vw for drop shadow */
+}
+
+.bio-quote {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em; /* Adjusted size */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  filter: drop-shadow(0.3vw 0.2vw 0.1vw grey) drop-shadow(0.5vw 0.5vw 0vw #000);
+  padding: 1vw; /* Use vw for padding */
+  text-align: left;
+}
+
+.bio-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em; /* Use em for font size */
+  text-shadow: 0.5vw 0.5vw 0.1vw #000;
+  max-width: 40rem; /* Use rem for max-width */
+  margin: 0;
+  line-height: 1.5em; /* Use em for line-height */
+  padding: 2vw; /* Use vw for padding */
+  border: 0.2vw solid #000; /* Use vw for border */
+  background-color: rgba(0, 0, 0, 0.7);
+  filter: drop-shadow(0.3vw 0.2vw 0.1vw grey) drop-shadow(0.5vw 0.5vw 0vw #fff);
+  text-align: justify;
+}
+
+/* Responsive Styles for Small Screens (Mobile) */
+@media (max-width: 767px) {
+  /* Centering the content on smaller screens */
+  .bio-section {
+      text-align: center;
+      align-items: center;
+      padding: 5vw 8vw;
   }
-  
-  /* Header Styles */
-  .bio-header {
-    font-family: 'Cinzel Decorative', sans-serif;
-    font-size: 3em;
-    -webkit-text-stroke-color: #000 2px;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+
+  /* Centering header and quote */
+  .bio-header, .bio-quote {
+      margin: 0 auto;
+      font-size: 2em; /* Adjusted size */
   }
-  
-  .bio-quote {
-    font-family: 'Anton', sans-serif;
-    font-size: 1.7em;
-    text-shadow: 2px 2px 1px #000;
-    padding: 10px;
-    text-align: left;
-  }
-  
+
+  /* Centering paragraph */
   .bio-paragraph {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
-    text-shadow: 2px 2px 1px #000;
-    max-width: 600px;
-    margin: 0;
-    line-height: 1.0em;
-    padding-left: 100px;
-    border: 3px solid #000; 
-    padding: 20px; 
-    background-color: rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #fff);
-    text-align: justify;
-  }
-  
-  /* Responsive Styles for Small Screens (Mobile) */
-  @media (max-width: 767px) {
-    /* Centering the content on smaller screens */
-    .bio-section {
-      text-align: center;
-      align-items: center;
-    }
-  
-    /* Centering header and quote */
-    .bio-header, .bio-quote {
-      margin: 0 auto;
-    }
-    .bio-header {
-        font-size: 2em; 
-      }
-    /* Centering paragraph */
-    .bio-paragraph {
       margin: 0 auto;
       text-align: left;
-    }
+      max-width: 80vw; /* Adjusted max-width */
   }
-  .bio-sub {
-    color: var(--site-color-02);
-  }
-  .bio-hed{
-    color: var(--site-color-02);
-  }
- 
-  .schedule-button  {
-    margin-top: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    display: block;
-    background: var(--background-image-01);
-    color: #fff;
-    letter-spacing: 4px;
-    text-decoration: underline;
-    -webkit-text-stroke: 1px var(--site-color-01);
-    border: 3px solid var(--site-color-02);
-    filter: drop-shadow(3px 2px 1px var(--site-color-03)) drop-shadow(5px 5px 0px #000);
-    transition: .4s;
-    padding: 30px 40px;
-    width: fit-content;
-  }
-  .schedule-button:hover {
-    background: transparent;
-    color: var(--site-color-02);
-    border: 2px solid #fff;
-    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
-    cursor: pointer;
-  }
-  
-  /* Responsive Styles for Small Screens (Mobile) */
-  @media (max-width: 767px) {
-    /* Centering the content on smaller screens */
-    .bio-section {
-      text-align: center;
-      align-items: center;
-    }
-    .bio-quote {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    /* Centering header and quote */
-    .bio-header,
-    .bio-quote {
-      margin: 0 auto;
-    }
-  
-    /* Centering paragraph */
-    .bio-paragraph {
-      margin: 0 auto;
-      text-align: left;
-    }
-  
-    /* Centering the button on smaller screens */
+
+  /* Centering the button on smaller screens */
   .schedule-button {
-    margin-top: 50px; /* Adjust the margin as needed */
-    display: block; /* Make sure it takes full width */
-    margin-left: auto; /* Center the button horizontally */
-    margin-right: auto;
+      margin-top: 5vw; /* Adjusted margin */
+      padding: 2vw 3vw; /* Use vw for padding */
   }
-  }
+}
+
+.bio-sub {
+  color: var(--site-color-02);
+  
+}
+
+.bio-hed {
+  color: var(--site-color-02);
+}
+
+.schedule-button {
+  margin-top: 3vw; /* Adjusted margin */
+  font-size: 2vw; /* Use vw for font size */
+  font-weight: bold;
+  display: block;
+  background: url(../assets/wood2.png);
+  color: #fff;
+  letter-spacing: 0.4em; /* Use em for letter-spacing */
+  text-decoration: underline;
+  -webkit-text-stroke: 0.1vw var(--site-color-01); /* Use vw for text stroke */
+  border: 0.2vw solid var(--site-color-02); /* Use vw for border */
+  filter: drop-shadow(0.3vw 0.2vw 0.1vw var(--site-color-03)) drop-shadow(0.5vw 0.5vw 0vw #000); /* Use vw for drop shadow */
+  transition: 0.4s;
+  padding: 2vw 3vw; /* Use vw for padding */
+  width: fit-content;
+}
+
+.schedule-button:hover {
+  background: transparent;
+  color: var(--site-color-02);
+  border: 0.1vw solid #fff; /* Use vw for border */
+  filter: drop-shadow(0.3vw 0.2vw 0.1vw grey) drop-shadow(0.5vw 0.5vw 0vw #000); /* Use vw for drop shadow */
+  cursor: pointer;
+}

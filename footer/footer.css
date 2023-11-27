@@ -49,6 +49,7 @@ ul {
 .footer {
   background-color: #24262b;
   padding: 70px 0;
+  border: 2px solid silver
 }
 .footer {
   background-image: url("../assets/foot4.png");
@@ -57,6 +58,7 @@ ul {
   background-repeat: no-repeat;
   padding: 50px 0;
   color: #fff;
+  border: 2px solid #000;
 }
 .footer-col {
   width: 25%;
@@ -139,18 +141,6 @@ ul {
   position: relative;
 }
 
-.footer-logo {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.footer-logo img {
-  width: 550px;
-  height: auto;
-  display: block;
-}
 
 .copyright {
   text-align: center;
@@ -189,11 +179,11 @@ ul {
   font-size: 30px;
   font-weight: bold;
   display: block;
-  background: var(--background-image-01);
-  color: #fff;
+  background: url(../assets/wood4.png);
+  color: var(--site-color-01);
   letter-spacing: 4px;
   text-decoration: underline;
-  -webkit-text-stroke: 1px var(--site-color-01);
+  text-shadow: -1px -1px 0 var(--site-color-04), 1px -1px 0 var(--site-color-04), -1px 1px 0 #000, 1px 1px 0 #000;
   border: 3px solid var(--site-color-02);
   filter: drop-shadow(3px 2px 1px var(--site-color-03))
     drop-shadow(5px 5px 0px #000);
