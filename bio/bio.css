@@ -111,3 +111,8 @@
   filter: drop-shadow(0.3vw 0.2vw 0.1vw grey) drop-shadow(0.5vw 0.5vw 0vw #000); /* Use vw for drop shadow */
   cursor: pointer;
 }
+/* Style for H5 in the bio-quote on small screens */
+.bio-quote h5 {
+  font-size: 0.8em !important; /* Adjusted size */
+  padding: 1vw 0; /* Adjusted padding */
+}
