@@ -125,7 +125,7 @@ ul {
   background-color: var(--site-color-04);
 }
 
-/*responsive*/
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;

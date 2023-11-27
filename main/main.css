@@ -2,7 +2,7 @@ main {
   width: 100%;
   height: calc(100vh - 60px);
   background-color: #1a253a;
-  margin-top: 2%; /* Slightly reduced margin */
+  margin-top: 2%; 
   background-image: url(../assets/mainhouse57.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,18 +11,18 @@ main {
   justify-content: center;
   align-items: center;
   z-index: 100;
-  border: 2px solid #000; /* Slightly reduced border size */
+  border: 2px solid #000; 
 }
 
 main .main-intro {
   position: relative;
-  right: 5vw; /* Adjusted for responsive positioning */
-  padding-bottom: 5vh; /* Slightly reduced padding */
+  right: 5vw; 
+  padding-bottom: 5vh; 
 }
 
 main .main-intro h1 {
   font-family: "Cinzel Decorative", sans-serif;
-  font-size: 4vw; /* Slightly reduced font size */
+  font-size: 4vw; 
   line-height: 1.2em;
   color: #c3b091;
   filter: drop-shadow(3px 2px 1px #fff) drop-shadow(5px 5px 0px #000);
@@ -30,15 +30,15 @@ main .main-intro h1 {
 }
 
 main p {
-  font-size: 1.3rem; /* Slightly reduced font size */
+  font-size: 1.3rem; 
   line-height: 1.4;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 main a {
-  margin-top: 2%; /* Slightly reduced margin */
-  font-size: 1.8vw; /* Slightly reduced font size */
-  padding: .5% 5%; /* Slightly reduced padding */
+  margin-top: 2%; 
+  font-size: 1.8vw; 
+  padding: .5% 5%; 
   margin-left: auto;
   margin-right: auto;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -47,7 +47,7 @@ main a {
 }
 
 main a:hover {
-  border: 1px solid #fff; /* Slightly reduced border size */
+  border: 1px solid #fff; 
   filter: drop-shadow(2px 1px 1px grey) drop-shadow(3px 3px 0px #000);
   cursor: pointer;
     background: transparent;
@@ -58,15 +58,15 @@ main a:hover {
 
 main .main-quotes {
   position: relative;
-  left: 5vw; /* Adjusted for responsive positioning */
-  padding-bottom: 1vh; /* Slightly reduced padding */
+  left: 5vw; 
+  padding-bottom: 1vh; 
 }
 
 main .main-quotes p {
-  border-left: 0.3vw solid var(--site-color-01); /* Slightly reduced border size */
+  border-left: 0.3vw solid var(--site-color-01); 
   box-shadow: -5px 0 5px -5px var(--site-color-02);
-  padding-left: 1vw; /* Slightly reduced padding */
-  margin: 1% 0; /* Slightly reduced margin */
+  padding-left: 1vw; 
+  margin: 1% 0; 
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -79,17 +79,17 @@ main .main-quotes p {
   }
 
   main .main-intro h1 {
-    font-size: 8vw; /* Adjusted font size for smaller screens */
+    font-size: 8vw; 
   }
 
   main p {
-    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    font-size: 1.5rem; 
   }
 
   main a {
     margin-top: 3%;
-    font-size: 3.5vw; /* Adjusted font size for smaller screens */
-    padding: 2% 3%; /* Adjusted padding for smaller screens */
+    font-size: 3.5vw; 
+    padding: 2% 3%; 
   }
 
   main .main-quotes {
@@ -98,7 +98,7 @@ main .main-quotes p {
 }
 .main-schdl {
   position: relative;
-  left: 20vw; /* Adjusted for responsive positioning */
+  left: 20vw; 
   top:7.5vh;
-  padding-bottom: 0.5vh; /* Slightly reduced padding */
+  padding-bottom: 0.5vh; 
 }

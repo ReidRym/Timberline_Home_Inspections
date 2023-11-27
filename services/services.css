@@ -1,6 +1,6 @@
 .services-title {
   text-align: center;
-  padding: 5vw 2vw; /* Use vw for responsive padding */
+  padding: 5vw 2vw; 
   background-image: url(../assets/servwood.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 
 .services-container {
   display: grid;
-  grid-template-columns: repeat(3,1fr); /* Responsive grid */
+  grid-template-columns: repeat(3,1fr); 
   gap: 2vw;
   justify-content: center;
   align-items: stretch;
@@ -47,13 +47,13 @@
 
 .service-card {
   position: relative;
-  height: 100%; /* Use vw for responsive height */
+  height: 100%; 
   max-height: 30vw;
   overflow: hidden;
   border-radius: 1em;
   box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  background-color: #000; /* Change this to your desired background color */
+  background-color: #000; 
 }
 
 .service-card:nth-child(even) {
@@ -99,19 +99,19 @@
   }
 
   .service-card p {
-    line-height: 1.5; /* Adjust line height for better readability on smaller screens */
-    font-size: 1em; /* Adjust font size for better readability on smaller screens */
-    padding: 0 2vw; /* Add padding for better text spacing on smaller screens */
+    line-height: 1.5; 
+    font-size: 1em; 
+    padding: 0 2vw; 
   }
 
   .service-card i {
-    margin-top: 1em; /* Adjust icon margin for better spacing on smaller screens */
-    margin-left: 0; /* Center the icon on smaller screens */
+    margin-top: 1em; 
+    margin-left: 0; 
   }
 
   .service-card h1 {
-    font-size: 0.7em; /* Adjust heading font size for better readability on smaller screens */
-    margin-bottom: 0.5em; /* Adjust heading margin for better spacing on smaller screens */
+    font-size: 0.7em; 
+    margin-bottom: 0.5em; 
     padding: 0 2vw;
   }
 }
