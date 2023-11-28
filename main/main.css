@@ -36,7 +36,10 @@ main p {
 }
 
 main a {
-  margin-top: 2%; 
+  position: static;
+  display: inline-block;
+
+  margin-top: 12%; 
   font-size: 1.8vw; 
   padding: .5% 5%; 
   margin-left: auto;
