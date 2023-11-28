@@ -175,8 +175,8 @@ ul {
   letter-spacing: 2px;
 }
 .foot-sched {
-  margin-top: 30px;
-  font-size: 30px;
+  margin-top: 10px;
+  font-size: 20px;
   font-weight: bold;
   display: block;
   background: url(../assets/wood4.png);
@@ -188,7 +188,7 @@ ul {
   filter: drop-shadow(3px 2px 1px var(--site-color-03))
     drop-shadow(5px 5px 0px #000);
   transition: 0.4s;
-  padding: 10px 10px;
+  padding: 1px 1px;
   width: fit-content;
 }
 .foot-sched:hover {
@@ -230,19 +230,19 @@ ul {
 }
 .foot-sched {
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   display: block;
-  background: url(../assets/wood4.png);
-  color: var(--site-color-01);
+  background: transparent;
+  color: #fff;
   letter-spacing: 4px;
   text-decoration: underline;
   text-shadow: -1px -1px 0 var(--site-color-04), 1px -1px 0 var(--site-color-04), -1px 1px 0 #000, 1px 1px 0 #000;
-  border: 3px solid var(--site-color-02);
+  border: 1px solid var(--site-color-02);
   filter: drop-shadow(3px 2px 1px var(--site-color-03))
     drop-shadow(5px 5px 0px #000);
   transition: 0.4s;
-  padding: 10px 10px;
+  padding: 1px 3px;
   width: fit-content;
 }
 .foot-sched:hover {
