@@ -70,74 +70,26 @@ main .main-quotes p {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-@media (max-width: 767px) {
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+ 
   main .main-intro {
-    position: static;
-    right: auto;
-    padding-bottom: 8vh;
-    text-align: center;
+    right: 0;
   }
 
   main .main-intro h1 {
-    font-size: 8vw; 
+    font-size: 6vw;
   }
 
   main p {
-    font-size: 1.5rem; 
+    font-size: 1rem;
   }
 
   main a {
-    margin-top: 3%;
-    font-size: 3.5vw; 
-    padding: 2% 3%; 
+    font-size: 2vw;
   }
 
   main .main-quotes {
     display: none;
   }
 }
-.main-schdl {
-  position: relative;
-  left: 20vw; 
-  top:7.5vh;
-  padding-bottom: 0.5vh; 
-}
-/* Landscape mode styles */
-@media (orientation: landscape) {
-  main .main-intro {
-    /* Adjust landscape styles here */
-    position: static;
-    right: auto;
-    padding-bottom: 8vh;
-    text-align: center;
-  }
-
-  main .main-intro h1 {
-    /* Adjust landscape styles here */
-   display: none;
-  }
-
-  main p {
-    /* Adjust landscape styles here */
-    font-size: 1.5rem;
-  }
-
-  main a {
-    /* Adjust landscape styles here */
-    margin-top: 3%;
-    font-size: 3.5vw; 
-    padding: 2% 3%; 
-  }
-
-  main .main-quotes {
-    /* Adjust landscape styles here */
-    display: none;
-  }
-}
-.main-schdl {
-  position: relative;
-  left: 20vw; 
-  top:7.5vh;
-  padding-bottom: 0.5vh; 
-}
-
