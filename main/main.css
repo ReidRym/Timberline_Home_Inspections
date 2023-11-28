@@ -1,9 +1,10 @@
 main {
+  
   width: 100%;
   height: calc(100vh - 60px);
   background-color: #1a253a;
   margin-top: 2%; 
-  background-image: url(../assets/mainhouse57.png);
+  background-image: url(../assets/maintest3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,27 +15,31 @@ main {
   border: 2px solid #000; 
 }
 
-main .main-intro {
+/* main .main-intro {
   position: relative;
   right: 5vw; 
   padding-bottom: 5vh; 
-}
+} */
 
-main .main-intro h1 {
+/* main .main-intro h1 {
   font-family: "Cinzel Decorative", sans-serif;
   font-size: 4vw; 
   line-height: 1.2em;
   color: #c3b091;
   filter: drop-shadow(3px 2px 1px #fff) drop-shadow(5px 5px 0px #000);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
+} */
 
 main p {
   font-size: 1.3rem; 
   line-height: 1.4;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
+.main-slogan{
+  position: absolute;
+  top: 70%; /* Adjust as needed */
+  left: 12%; /* Adjust as needed */
+}
 main a {
   position: static;
   display: inline-block;
@@ -57,13 +62,23 @@ main a:hover {
     color: var(--site-color-02);
     border: 2px solid #fff;
   }
+  .main-btn{
+    position: absolute;
+    top: 82%; /* Adjust as needed */
+    left: 37%; /* Adjust as needed */
+  }
+  .main-quotes{
+    position: absolute;
+    top: 40%; /* Adjust as needed */
+    right: 10%; /* Adjust as needed */
+  }
 
 
-main .main-quotes {
+/* main .main-quotes {
   position: relative;
   left: 5vw; 
   padding-bottom: 1vh; 
-}
+} */
 
 main .main-quotes p {
   border-left: 0.3vw solid var(--site-color-01); 
@@ -75,22 +90,36 @@ main .main-quotes p {
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
- 
+  main{
+    background-image: url(../assets/mainhouse60.png);
+    
+   }
+   .main-slogan{
+    position: absolute;
+    top: 45%; /* Adjust as needed */
+    left: 24%; /* Adjust as needed */
+  }
   main .main-intro {
     right: 0;
   }
 
-  main .main-intro h1 {
+  /* main .main-intro h1 {
     font-size: 6vw;
-  }
+  } */
 
   main p {
     font-size: 1rem;
   }
 
   main a {
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
+  .main-btn{
+    position: absolute;
+    top: 52%; /* Adjust as needed */
+    left: 35%; /* Adjust as needed */
+  }
+ 
 
   main .main-quotes {
     display: none;
@@ -106,10 +135,18 @@ and (min-device-width: 430px)
 and (max-device-width: 932px) {
    /* Your CSS Here*/
    main{
-    background-image: url(../assets/mainhouseland.png);
+    background-image: url(../assets/land2.png);
     
    }
    main .main-quotes p{
     display: none;
   } 
+  .main-btn{
+    position: absolute;
+    top: 52%; /* Adjust as needed */
+    left: 65%; /* Adjust as needed */
+  }
+  main a {
+    font-size: 3.5vw;
+  }
 }
