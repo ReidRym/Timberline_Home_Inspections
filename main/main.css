@@ -112,12 +112,12 @@ main .main-quotes p {
   }
 
   main a {
-    font-size: 3.5vw;
+    font-size: 5.5vw;
   }
   .main-btn{
     position: absolute;
     top: 52%; /* Adjust as needed */
-    left: 35%; /* Adjust as needed */
+    left: 31%; /* Adjust as needed */
   }
  
 
@@ -135,7 +135,7 @@ and (min-device-width: 430px)
 and (max-device-width: 932px) {
    /* Your CSS Here*/
    main{
-    background-image: url(../assets/land2.png);
+    background-image: url(../assets/land5.png);
     
    }
    main .main-quotes p{
