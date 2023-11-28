@@ -93,3 +93,20 @@ main .main-quotes p {
     display: none;
   }
 }
+/* main.css */
+
+.hide-on-mobile {
+  display: none;
+}
+@media screen and (orientation:landscape)
+and (min-device-width: 430px) 
+and (max-device-width: 932px) {
+   /* Your CSS Here*/
+   main{
+    background-image: url(../assets/mainhouseland.png);
+    
+   }
+   main .main-quotes p{
+    display: none;
+  } 
+}
