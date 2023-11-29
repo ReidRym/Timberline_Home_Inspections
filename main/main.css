@@ -138,6 +138,11 @@ and (max-device-width: 932px) {
     background-image: url(../assets/land5.png);
     
    }
+   .main-slogan{
+    position: absolute;
+    top: 75%; /* Adjust as needed */
+    left: 24%; /* Adjust as needed */
+  }
    main .main-quotes p{
     display: none;
   } 
@@ -150,7 +155,5 @@ and (max-device-width: 932px) {
     font-size: 3.5vw;
   }
 }
-/* main.css */
 
-/* ... (your existing styles) ... */
 
